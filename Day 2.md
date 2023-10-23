@@ -1,0 +1,70 @@
+# Introduction to Linux
+#### What is Linux
+ Linux is a kernel.
+#### WHAT is kernel?
+● Kernel is a
+code/program that used
+to meet your Software
+and Hardware. And
+allocate some
+resources.
+## What is Shell?
+Users communicate with the
+kernel by the shell.
+● The Shell is a Command Line
+Interpreter. It translates
+commands entered by the user
+and converts them into a
+language that is understood by
+the Kernel.
+#### Types of shells
+● Based on their features there are money shells.
+○ SH
+○ BASH
+○ ZSH
+○ FISH
+### What is OS- Operating system??
+● We have said UNIX and GNU/Linux as OS but what is OS. OS ism “operating system”, which means the main software
+part of computer that helps to work on.
+● It contains:
+○ Kernel
+○ Softwares
+○ Desktop environment
+○ File extensions
+○ Window manager
+##### Types of desktop environment on linux
+A) mate
+B) gnome
+C) KDE plasma
+D) XFCE
+#### Which Desktop environment is best>
+Speed de pends on:
+● Animations
+● High Graphics
+● Quality
+## Why Linux?
+● FAST No high spec computer/device
+needed
+● Most used
+● Most hacking tools
+● Most Secured!
+### Linux distributions/distro
+Distro is Modified Linux Kernels,type of operating systems with different:
+#### So many distros…
+● Debian
+○ Kali linux
+○ Ubuntu
+○ Parrot
+● Arch
+○ Black
+arch
+○ Garuda
+● Fedora
+● Red Hat
+● Gentoo
+● Android
+#### Which is best for hackers?
+● Kali linux
+● Parrot Os
+● Garuda
+● Black Arch
