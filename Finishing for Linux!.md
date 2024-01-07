@@ -1,0 +1,50 @@
+## Script installation
+● Some hacking tools are developed by some peoples and those peoples make it open-source, that means we can get those scripts/programs from github.
+● So we can download and use it. For this purpose git have a feature called ‘clone’
+● Syntax
+  ○ git clone <link_of_the_script_from_github> Script modules
+● Scripts are made with scripting languages(programming) like { python,bash,go,ruby,...}
+● So when we use these programming languages to do tasks their is something called modules/libraries these are needed to run the script as the dependencies.
+● More commands
+  ○ ps -> for process running on my shell
+  ○ ps -A -> view all running process
+  ○ ps -u username -> view users process
+● PID - Process ID To stop process
+  ○ Kill [options] [PID]
+● More on kill
+  ○ kill -19 PID -> to stop the process
+  ○ kill -18 PID -> to resume the process we stopped
+  ○ kill -9 PID -> to Stop a process immediately
+   ○ … there are 31 options
+## Tmux - Terminal Multiplexer
+● Tmux is used to classify our terminal work.
+● You can install it using apt. On kali it is built-in
+● Then to start it just type ‘tmux’\
+● To Create config file type
+  ○ nano .tmux.conf
+  ○ Type this
+■ unbind C-b
+■ unbind l
+■ set -g prefix C-a
+■ unbind %
+■ bind e split-window -h
+■ bind o split-window -v
+■ set -g base-index 1
+■ setw -g pane-base-index 1
+ ○ Save it | exit tmux and open again
+● To split horizontally
+ ○ ^A then o
+● To split vertically
+ ○ ^A then e
+● To exit
+ ○ ^A then x or
+ ○ just type ‘exit’
+● To create tab
+ ○ ^A then c
+● To rename the tab
+ ○ ^A then ,(comma)
+● To switch tabs
+ ○ ^A then <numbers>
+ ○ TO switch partitions
+■ ^A then <arrow>
+  ● … for more you can google but be aware of our super key is ^A
